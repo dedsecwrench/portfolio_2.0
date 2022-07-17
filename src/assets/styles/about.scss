@@ -1,0 +1,94 @@
+.about{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    color: #fff;
+    display: flex;
+    border-top: 1px solid grey;
+    z-index: 60;
+    // border-bottom: 1px solid grey;
+    @media (min-width:300px) and (max-width:600px){
+        &{
+            flex-direction: column;
+        }
+    }
+
+    &_left{
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 6rem;
+        position: inherit;
+        color: #111;
+        letter-spacing: 4px;
+        transform: skew(-10deg);
+        border-right: 1px solid grey;
+        background-color: #111;
+        text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;
+        font-weight: 700;
+        @media (min-width:300px) and (max-width:600px){
+            & {
+                transform: skew(0deg);
+                width: 100%;
+                height: 15vh;
+                font-size: 4rem;
+                border-right: none;
+                background-color: #111;
+            }
+        }
+    }
+    &_right{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        align-items: center;
+        padding: 3rem;
+        justify-content: center;
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        // transform: skew(-10deg);
+        // border-left: 1px solid grey;
+        font-weight: 500;
+        @media (min-width:300px) and (max-width:600px){
+            & {
+                height: 70vh;
+                width: 100%;
+                padding: 2rem;
+                font-size: 1.2rem;
+                // transform: skew(0deg);
+                border-left: none;
+            }
+        }
+    }    
+}
+
+.straight{
+    transform: skew(10deg);
+    @media (min-width:300px) and (max-width:600px){
+        transform: skew(0deg);
+    }
+}
+
+.bold-color{
+    color:  rgb(255, 157, 0);
+    font-weight: 800;
+}
+
+.setImg{
+    top: 0;
+    // right: 10rem;
+    height: 200px;
+    width: 300px;
+    opacity: 0.6;
+    border-radius: 20px;
+    // transform: skew(10deg);
+    @media (min-width:300px) and (max-width:600px){
+        &{
+            display: none;
+        }
+    }
+}
