@@ -83,6 +83,8 @@
             margin: 0 auto 0 auto;
             height: 62vh;
             width: 90%;
+            display: flex;
+            justify-content: center;
             @media (min-width:300px) and (max-width:600px){
                 margin: 0 auto 0 auto;
                 height: 29vh;
@@ -149,3 +151,4 @@
     box-shadow: inset 0px 10px 20px 2px rgba(226, 226, 226, 0.25);
 }
    
+
