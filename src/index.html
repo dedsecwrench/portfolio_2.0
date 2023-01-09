@@ -9,9 +9,11 @@
     <meta name="keywords" content="Nameera, Nameera Pathan, web development" />
     <meta name="author" content="Nameera Pathan"/>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
     <!-- font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-icon-60x60.png">
@@ -32,6 +34,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <script src="assets/js/config.js"></script>
+    <script src="assets/js/main.js"></script> 
 </head>
 <body>
     <!-- loading -->
@@ -70,10 +73,7 @@
                 <li><a href="#" class="coolLink header__sm" data-text="Contact"><span>Contact</span></a></li>
             </ul>
             <div class="header__right">
-                <div class="circle">
-                    <img class="pfl" src="assets/images/icons/profile.png" alt="">
-                </div>
-                <!-- <button class="coolButton"><span>Contact</span></button> -->
+              
             </div>
         </div>
     </header>
@@ -86,7 +86,7 @@
         <h1><span class="clr-text">Hey</span> There!</h1>
         <h1>I'm <span class="clr-text"> Nameera</span> </h1>
         <h3><span class="clr-text">Coding&nbsp;</span> Enthusiastic <span class="clr-text">&nbsp;&</span></h3>
-        <h3><span class="clr-text">Full Stack </span>Developer Mainly Using The <span class="clr-text">MERN</span>&nbsp;Stack .</h3>
+        <h3><span class="clr-text">Full Stack </span>Developer.</h3>
             <div class="wrapper"> <span class="s">I</span> <span class="s"></span>
                 <ul class="dynamic">
                 <li><span>CODE</span></li>
@@ -114,32 +114,39 @@
 
 
     <!-- SKILLS -->
-    <div class="skills">
-        <div class="skills_left"><span class="straight2">Skills</span></div>
+    <div class="skills" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
+        <div class="skills_left">
+            <div data-aos="zoom-in"  data-aos-easing="ease-in-out">
+            <span class="straight2">Skills</span>
+            </div>
+        </div>
         <div class="skills_right">
             <div class="skills_Box">
-                <div class="skills_right_imgDiv"><img class="skills_imgs" src="assets/images/icons/htmlicon.webp" alt="">Html</div>
-                <div class="skills_right_imgDiv"><img class="skills_imgs" src="assets/images/icons/cssicon.webp" alt="">Css</div>
-                <div class="skills_right_imgDiv"><img class="skills_imgs" src="assets/images/icons/reacticon.webp" alt="">React</div>
-                <div class="skills_right_imgDiv"><img class="skills_imgs" src="assets/images/icons/jsicon.png" alt="">JavaScript</div>
-                <div class="skills_right_imgDiv"><img class="skills_imgs" src="assets/images/icons/nodejs.png" alt="">Node Js</div>
-                <div class="skills_right_imgDiv"><img class="skills_imgs" src="assets/images/icons/mysql.png" alt="">MySql</div>
-                <div class="skills_right_imgDiv"><img class="skills_imgs" src="assets/images/icons/sass.png" alt="">Sass</div>
-                <div class="skills_right_imgDiv"><img class="skills_imgs" src="assets/images/icons/bootstrap-icon.png" alt="">Bootstrap</div>
-                <div class="skills_right_imgDiv"><img class="skills_imgs" src="assets/images/icons/express.webp" alt="">Express Js</div>
-                <div class="skills_right_imgDiv"><img class="skills_imgs" src="assets/images/icons/MongoDBicon.png" alt="">MongoDB</div>
-                <div class="skills_right_imgDiv"><img class=" im" src="assets/images/icons/tailwind.png" alt="">Tailwind css</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class="skills_imgs" src="assets/images/icons/htmlicon.webp" alt="">Html</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class="skills_imgs" src="assets/images/icons/cssicon.webp" alt="">Css</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class="skills_imgs" src="assets/images/icons/reacticon.webp" alt="">React</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class="skills_imgs" src="assets/images/icons/jsicon.png" alt="">JavaScript</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class="skills_imgs" src="assets/images/icons/nodejs.png" alt="">Node Js</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class="skills_imgs" src="assets/images/icons/mysql.png" alt="">MySql</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class="skills_imgs" src="assets/images/icons/sass.png" alt="">Sass</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class="skills_imgs" src="assets/images/icons/bootstrap-icon.png" alt="">Bootstrap</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class="skills_imgs" src="assets/images/icons/express.webp" alt="">Express Js</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class="skills_imgs" src="assets/images/icons/MongoDBicon.png" alt="">MongoDB</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class="skills_imgs" src="assets/images/icons/django.png" alt="">Django</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class="skills_imgs" src="assets/images/icons/Python.webp" alt="">Python</div>
+                <div class="skills_right_imgDiv" data-aos="zoom-in"><img class=" im" src="assets/images/icons/tailwind.png" alt="">Tailwind css</div>
             </div>
           </div>
     </div>
 
     <!-- About -->
     <div class="about">
-        <div class="about_left"><span class="straight">About</span></div>
+        <div class="about_left"><span data-aos="zoom-in"><span class="straight">About</span></span></div>
         <div class="about_right">
-            <img src="assets/images/icons/179.jpg" class="setImg"  alt="">
+            <img data-aos="zoom-in" src="assets/images/icons/179.jpg" class="setImg"  alt="">
 
-            <div style="margin-top: 20px;">
+            <div data-aos="zoom-in" style="margin-top: 20px;">
 
                 I've completed Bachelor's of <span class="bold-color">COMPUTER APPLICATION</span> in <span class="bold-color">2021</span>.
                 I'm a self-taught <span class="bold-color">PROGRAMMER</span> who is very passionate about<span class="bold-color"> MERN STACK </span>Development.
@@ -153,11 +160,10 @@
 
 <!-- Projects -->
 
-    <div class="project_head">Projects</div>
+    <div class="project_head"><span data-aos="zoom-in">Projects</span></div>
 
 <!-- <div class="project"> -->
-    
-        <br/>
+    <br/>
 <br/>
 <br/>
 
@@ -232,13 +238,13 @@
 
     <!-- CONTACT -->
     <div class="contact" >
-        <div class="contact_left" id="particles-js">
-            <div class="c">Contact</div>
+        <div class="contact_left">
+            <div class="c"><span data-aos="zoom-in">Contact</span></div>
             <div class="socials_1">
-                <a href="https://www.instagram.com/__ded_sec_/" target="_blank"><i class="uil uil-instagram coloredIcon_1"></i></a>
-                <a href="https://www.linkedin.com/in/nameera-pathan-ba17811b1/" target="_blank"><i class="uil uil-linkedin coloredIcon_1"></i></a>
-                <a href="https://twitter.com/__ded_sec_?s=09" target="_blank"><i class="uil uil-twitter coloredIcon_1"></i></a>
-                <a href="#" target="_blank"><i class="uil uil-discord coloredIcon_1"></i></a>
+                <a href="https://www.instagram.com/__ded_sec_/" target="_blank"><i class="uil uil-instagram coloredIcon_1" data-aos="zoom-in"></i></a>
+                <a href="https://www.linkedin.com/in/nameera-pathan-ba17811b1/" target="_blank"><i class="uil uil-linkedin coloredIcon_1" data-aos="zoom-in"></i></a>
+                <a href="https://twitter.com/__ded_sec_?s=09" target="_blank"><i class="uil uil-twitter coloredIcon_1" data-aos="zoom-in"></i></a>
+                <a href="#" target="_blank"><i class="uil uil-discord coloredIcon_1" data-aos="zoom-in"></i></a>
             </div>
         </div>
 
@@ -247,19 +253,19 @@
             class="contact_form"   
             action="https://formspree.io/f/mrgjwaon"
             method="POST">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
+                <label for="name" data-aos="zoom-in">Name</label>
+                <input type="text" id="name" name="name" autocomplete="off" required data-aos="zoom-in">
                 <br>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+                <label for="email" data-aos="zoom-in">Email</label>
+                <input type="email" id="email" name="email" autocomplete="off" required data-aos="zoom-in">
                 <br>
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject"required>
+                <label for="subject" data-aos="zoom-in">Subject</label>
+                <input type="text" id="subject" name="subject" autocomplete="off" required data-aos="zoom-in">
                 <br>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
+                <label for="message" data-aos="zoom-in">Message</label>
+                <textarea id="message" name="message" autocomplete="off" required data-aos="zoom-in"></textarea>
                 <br>
-                <button id="btn">Send <i class="fa-solid fa-paper-plane"></i></button>
+                <button id="btn" data-aos="zoom-in">Send <i class="fa-solid fa-paper-plane"></i></button>
             </form>
         </div>
     </div>
@@ -268,7 +274,7 @@
 
     <div class="last"></div>
 
-    <footer style="letter-spacing: 2px;">
+    <footer style="letter-spacing: 1px;">
         © Copyright 2022 Nameera Pathan
     </footer>
 
@@ -276,6 +282,15 @@
     <script src="assets/js/particle.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/scroll.js"></script> 
+    <script src="assets/js/main.js"></script> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:120, // offset (in px) from the original trigger point
+        delay: 0.4, // values from 0 to 3000, with step 50ms
+        easing: 'ease'
+        });
+    </script>
     <!-- <script src="assets/js/mailer.js"></script> -->
 </body>
 </html>

@@ -16,6 +16,7 @@ $blue-color:#2196f3;
         left: 0;
         width: 100%;
         height: 2px;
+        color: white;
         background: currentColor;
         transform: scale3d(0,1,1);
         transform-origin: right;
@@ -24,6 +25,7 @@ $blue-color:#2196f3;
     &:after{
         content: attr(data-text);
         position: absolute;
+        color: white;
         top:0;
         height: 100%;
         transform: translate3d(150%,0,0);
@@ -35,12 +37,15 @@ $blue-color:#2196f3;
     &:hover:before{
         transform: scale3d(1,1,1);
         transform-origin: left;
+        color: white;
     }
     &:hover:after{
         transform:translate3d(0,0,0);
+        color: white;
     }
     &:hover span{
         transform:translate3d(-150%,0,0);
+        color: white;
     }
 }
 

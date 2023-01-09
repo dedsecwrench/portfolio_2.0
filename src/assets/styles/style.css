@@ -1,0 +1,30 @@
+a:hover, a:focus {
+  /* color: #005580; */
+  text-decoration: none !important;
+}
+.coolLink:link {
+  text-decoration: none !important;
+}
+a:link { text-decoration: none !important; }
+
+
+@media screen and (max-width: 600px) {
+  .header__toggle-btn {
+    display: block !important;
+  }
+  .header__left{
+      display: flex;
+      align-items: center;
+      gap: 2.7rem;
+  }
+  .header__left li{
+    font-size: 18px;
+    width: 100%;
+    font-weight: 500;
+  }
+}
+
+.header__toggle-btn {
+  display: none;
+}
+

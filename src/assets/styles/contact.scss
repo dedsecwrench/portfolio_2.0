@@ -80,7 +80,7 @@ $blue-color:#2196f3;
     }
 
     &_left{
-        height: 100vh;
+        height: 90vh;
         width: 50%;
         display: flex;
         align-items: center;
@@ -88,12 +88,11 @@ $blue-color:#2196f3;
         font-size: 6rem;
         position: inherit;
         font-weight: 700;
-        & .c{color: #111;
+        & .c{
+            color: #111;
             letter-spacing: 4px;
             text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white;
-         }
-
-
+        }
     }
 
     &_right{
@@ -113,7 +112,7 @@ $blue-color:#2196f3;
         position: absolute;
         width: 35vw;
         height: 75vh;
-        border: 1px solid rgb(186, 186, 186);
+        // border: 1px solid rgb(186, 186, 186);
         padding: 20px 20px 20px 20px;
         color: black;
         border-radius: 10px;
