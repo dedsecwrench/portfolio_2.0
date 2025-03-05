@@ -37,11 +37,11 @@ $blue-color:#2196f3;
     &:hover:before{
         transform: scale3d(1,1,1);
         transform-origin: left;
-        color: white;
+        color: rgb(174, 218, 29);
     }
     &:hover:after{
         transform:translate3d(0,0,0);
-        color: white;
+        color: rgb(174, 218, 29);
     }
     &:hover span{
         transform:translate3d(-150%,0,0);

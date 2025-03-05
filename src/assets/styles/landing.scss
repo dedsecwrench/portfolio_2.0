@@ -126,7 +126,7 @@ $blue-color:#2196f3;
         }
         @media (min-width:300px) and (max-width:600px){
             &{
-                top: 5%;
+                top: 14%;
             }
             & h1 {
                 font-size: 2.5rem;
@@ -156,13 +156,14 @@ $blue-color:#2196f3;
                 width: fit-content;
                 // border: 1px solid white;
             }
+            // typing animation text
             & .dynamic{
                 // here it controls height of 
                 overflow: hidden;
                 height: 115px;
                 width: max-content;
                 // color: rgb(0, 221, 255);
-                color: white;
+                color: rgb(174, 218, 29);
                 padding: 0 0 0 20px;
                 text-shadow: none;
                 // text-shadow: -2px 0 rgb(0, 255, 247), 0 1px rgb(8, 174, 155), 1px 0 rgb(199, 233, 152), 0 -2px rgb(0, 64, 64);

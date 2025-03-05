@@ -9,7 +9,7 @@
     var tagCloud = TagCloud('.Sphere', Texts, {
 
         // Sphere radius in px
-        radius: 230,
+        radius: 227,
 
         // animation speed
         // slow, normal, fast
@@ -26,5 +26,6 @@
 
     // Giving color to each text in sphere
     // var color = 'rgb(17, 238, 238)';
-    let color = '#88f7f7';
+    // let color = '#88f7f7';
+    let color = 'rgb(22, 236, 136)';
     document.querySelector('.Sphere').style.color = color;
